@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Changes from './components/changes';
+import Current from './components/cureent';
+import Fotter from './components/fotter';
 
 AOS.init();
 
@@ -28,6 +30,8 @@ function App() {
     <Navbar />
     <Hero />
     <Changes />
+    <Current/>
+    <Fotter />
     </div>
 
   )
